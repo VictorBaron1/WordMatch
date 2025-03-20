@@ -5,7 +5,7 @@ private String secret;
 /** Constructs a WordMatch object with the given secret string of lowercase letters. */
 public WordMatch(String word)
 {
-/* implementation not shown */
+    secret = word;
 }
 /** Returns a score for guess, as described in part (a).
 * Precondition: 0 < guess.length() <= secret.length()
